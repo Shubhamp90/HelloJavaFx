@@ -41,7 +41,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void handleSaveButton(ActionEvent event) {.
-        System.out.println("save Button was hit!");
+        System.out.println("save Button was hit!"+ event.toString());
 
     }
     
